@@ -33,7 +33,20 @@ def preprocess_year_data(values: pd.DataFrame, column: str):
     return values
 
 
+def create_directory_and_subfolders(path):
+    if not os.path.exists(path):
+        try:
+            # Create the directory and its subfolders
+            os.makedirs(path)
+            print(f"Directory '{path}' and its subfolders created successfully.")
+        except OSError as e:
+            print(f"Error: {e}")
+    else:
+        print(f"Directory '{path}' already exists.")
+
+
 def extract_wb_data(**kwargs):
+    create_directory_and_subfolders('data/input/wb_data/')
     indicators = wb.series.list(q='PM2.5')
     dict_dataframes = {}
     for indicator in indicators:
@@ -87,6 +100,7 @@ def load_wb_data_to_s3(**kwargs):
 
 
 def extract_api_data(api_url,**kwargs):
+    create_directory_and_subfolders('data/input/waqi_data/')
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
@@ -125,7 +139,7 @@ def transform_api_data(**kwargs):
 
 def load_api_data_to_s3(**kwargs):
     task_instance = kwargs['ti']
-    dataframe_json = task_instance.xcom_pull(task_ids='transform_api_data', key='transforme_data')
+    dataframe_json = task_instance.xcom_pull(task_ids='transform_api_data', key='transformed_data')
     dataframe = pd.read_json(dataframe_json, orient='records')
     object_key = 'input/waqi_data/waqi_data'+str(datetime.now().strftime("%Y-%m-%d%H:%M"))+'.csv'
     file_path = 'data/input/waqi_data/waqi_data'+str(datetime.now().strftime("%Y-%m-%d%H:%M"))+'.csv'
