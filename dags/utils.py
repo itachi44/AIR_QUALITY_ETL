@@ -38,11 +38,11 @@ def create_directory_and_subfolders(path):
         try:
             # Create the directory and its subfolders
             os.makedirs(path)
-            print(f"Directory '{path}' and its subfolders created successfully.")
+            logger.info(f"Directory '{path}' and its subfolders created successfully.")
         except OSError as e:
-            print(f"Error: {e}")
+            logger.error(f"Error: {e}")
     else:
-        print(f"Directory '{path}' already exists.")
+        logger.info(f"Directory '{path}' already exists.")
 
 
 def extract_wb_data(**kwargs):
@@ -104,13 +104,11 @@ def extract_api_data(api_url,**kwargs):
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
-        print(data)
         task_instance = kwargs['ti']
         task_instance.xcom_push(key='extracted_data', value=data)  # Push data to XCom
         return data
     else:
-        print(f"Erreur lors de la requête : {response.status_code}")
-        #return None
+        logger.info(f"Erreur lors de la requête sur l'API de WAQI : {response.status_code}")
 
 
 def transform_api_data(**kwargs):

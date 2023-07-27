@@ -1,69 +1,522 @@
-[2023-07-27T00:34:42.484+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
-[2023-07-27T00:34:42.486+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2023-07-27T00:34:42.489+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2023-07-27T00:34:42.493+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
-[2023-07-27T00:34:42.517+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
-[2023-07-27T00:34:42.774+0000] {manager.py:889} INFO - 
+[2023-07-27T00:41:12.233+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-07-27T00:41:12.234+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-07-27T00:41:12.237+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-07-27T00:41:12.239+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T00:41:12.257+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T00:41:12.528+0000] {manager.py:889} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  ----------
-/opt/airflow/dags/etl_dag.py            183  0.06s             0           0
-/opt/airflow/dags/settings/params.py    179  0.09s             0           0
+/opt/airflow/dags/etl_dag.py            182  0.07s             0           0
+/opt/airflow/dags/settings/params.py    179  0.10s             0           0
 ================================================================================
-[2023-07-27T00:35:13.294+0000] {manager.py:889} INFO - 
+[2023-07-27T00:41:42.725+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.61s           2023-07-27T00:41:13
+/opt/airflow/dags/etl_dag.py                                   1           0  2.29s           2023-07-27T00:41:14
+================================================================================
+[2023-07-27T00:42:13.046+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.69s           2023-07-27T00:41:44
+/opt/airflow/dags/etl_dag.py                                   1           0  2.45s           2023-07-27T00:41:47
+================================================================================
+[2023-07-27T00:42:43.054+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.42s           2023-07-27T00:42:14
+/opt/airflow/dags/etl_dag.py                                   1           0  1.90s           2023-07-27T00:42:19
+================================================================================
+[2023-07-27T00:43:13.236+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.40s           2023-07-27T00:42:45
+/opt/airflow/dags/etl_dag.py                                   1           0  1.86s           2023-07-27T00:42:51
+================================================================================
+[2023-07-27T00:43:43.499+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.38s           2023-07-27T00:43:15
+/opt/airflow/dags/etl_dag.py                                   1           0  1.85s           2023-07-27T00:43:23
+================================================================================
+[2023-07-27T00:44:13.840+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.58s           2023-07-27T00:43:46
+/opt/airflow/dags/etl_dag.py                                   1           0  2.29s           2023-07-27T00:43:55
+================================================================================
+[2023-07-27T00:44:43.889+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.55s           2023-07-27T00:44:17
+/opt/airflow/dags/etl_dag.py                                   1           0  1.84s           2023-07-27T00:44:27
+================================================================================
+[2023-07-27T00:45:14.009+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.38s           2023-07-27T00:44:47
+/opt/airflow/dags/etl_dag.py                                   1           0  1.95s           2023-07-27T00:44:59
+================================================================================
+[2023-07-27T00:45:44.565+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.36s           2023-07-27T00:45:18
+/opt/airflow/dags/etl_dag.py                                   1           0  1.69s           2023-07-27T00:45:31
+================================================================================
+[2023-07-27T02:45:24.263+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T02:45:24.312+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-07-27T02:45:24.776+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-07-27T02:45:24.778+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-07-27T02:45:24.781+0000] {manager.py:490} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-07-27T02:45:24.784+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T02:45:24.814+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T02:45:24.949+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_dag.py            395  0.03s             0           0
+/opt/airflow/dags/settings/params.py    392  0.06s             0           0
+================================================================================
+[2023-07-27T04:14:22.989+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T04:14:23.065+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T04:14:23.199+0000] {manager.py:889} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/settings/params.py    196  0.00s             0           0  0.44s           2023-07-27T00:34:43
-/opt/airflow/dags/etl_dag.py                                   1           0  1.77s           2023-07-27T00:34:44
+/opt/airflow/dags/settings/params.py    409  0.07s             0           0  0.78s           2023-07-27T02:45:25
+/opt/airflow/dags/etl_dag.py            412  0.01s             1           0  1.96s           2023-07-27T02:45:26
 ================================================================================
-[2023-07-27T00:35:43.809+0000] {manager.py:889} INFO - 
+[2023-07-27T08:14:50.666+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T08:14:50.715+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T08:14:50.877+0000] {manager.py:889} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/settings/params.py    220  0.00s             0           0  0.49s           2023-07-27T00:35:13
-/opt/airflow/dags/etl_dag.py                                   1           0  2.01s           2023-07-27T00:35:16
+/opt/airflow/dags/settings/params.py    426  0.10s             0           0  1.25s           2023-07-27T04:14:24
+/opt/airflow/dags/etl_dag.py            429  0.04s             1           0  2.75s           2023-07-27T04:14:25
 ================================================================================
-[2023-07-27T00:36:13.927+0000] {manager.py:889} INFO - 
+[2023-07-27T08:26:11.480+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T08:26:11.536+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T08:26:12.715+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py    442  1.13s             0           0  1.29s           2023-07-27T08:14:52
+/opt/airflow/dags/etl_dag.py            444  1.01s             1           0  2.60s           2023-07-27T08:14:53
+================================================================================
+[2023-07-27T08:26:43.068+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py    458  0.00s             0           0  1.31s           2023-07-27T08:26:12
+/opt/airflow/dags/etl_dag.py                                   1           0  2.61s           2023-07-27T08:26:14
+================================================================================
+[2023-07-27T08:27:12.964+0000] {manager.py:889} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/settings/params.py                           0           0  0.40s           2023-07-27T00:35:44
-/opt/airflow/dags/etl_dag.py                                   1           0  1.81s           2023-07-27T00:35:48
+/opt/airflow/dags/settings/params.py                           0           0  1.35s           2023-07-27T08:26:44
+/opt/airflow/dags/etl_dag.py                                   1           0  2.53s           2023-07-27T08:26:46
 ================================================================================
-[2023-07-27T00:36:44.547+0000] {manager.py:889} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/settings/params.py                           0           0  0.38s           2023-07-27T00:36:14
-/opt/airflow/dags/etl_dag.py                                   1           0  1.96s           2023-07-27T00:36:20
-================================================================================
-[2023-07-27T00:37:15.096+0000] {manager.py:889} INFO - 
+[2023-07-27T08:27:43.147+0000] {manager.py:889} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/settings/params.py                           0           0  0.40s           2023-07-27T00:36:45
-/opt/airflow/dags/etl_dag.py                                   1           0  2.02s           2023-07-27T00:36:52
+/opt/airflow/dags/settings/params.py                           0           0  0.54s           2023-07-27T08:27:15
+/opt/airflow/dags/etl_dag.py                                   1           0  1.75s           2023-07-27T08:27:18
 ================================================================================
-[2023-07-27T00:37:45.280+0000] {manager.py:889} INFO - 
+[2023-07-27T08:28:13.884+0000] {manager.py:889} INFO - 
 ================================================================================
 DAG File Processing Stats
 
 File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
 ------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/settings/params.py                           0           0  0.45s           2023-07-27T00:37:16
-/opt/airflow/dags/etl_dag.py                                   1           0  1.99s           2023-07-27T00:37:25
+/opt/airflow/dags/settings/params.py                           0           0  0.56s           2023-07-27T08:27:45
+/opt/airflow/dags/etl_dag.py                                   1           0  1.70s           2023-07-27T08:27:50
 ================================================================================
-[2023-07-27T00:38:00.261+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2023-07-27T08:28:44.615+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.53s           2023-07-27T08:28:16
+/opt/airflow/dags/etl_dag.py                                   1           0  1.67s           2023-07-27T08:28:22
+================================================================================
+[2023-07-27T08:29:14.729+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.54s           2023-07-27T08:28:47
+/opt/airflow/dags/etl_dag.py                                   1           0  1.69s           2023-07-27T08:28:54
+================================================================================
+[2023-07-27T08:29:45.042+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:29:17
+/opt/airflow/dags/etl_dag.py                                   1           0  1.66s           2023-07-27T08:29:26
+================================================================================
+[2023-07-27T08:30:15.236+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:29:48
+/opt/airflow/dags/etl_dag.py                                   1           0  1.73s           2023-07-27T08:29:58
+================================================================================
+[2023-07-27T08:30:45.411+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:30:19
+/opt/airflow/dags/etl_dag.py                                   1           0  1.75s           2023-07-27T08:30:30
+================================================================================
+[2023-07-27T08:31:11.613+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T08:31:11.634+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T08:31:15.672+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:30:50
+/opt/airflow/dags/etl_dag.py                                   1           0  1.65s           2023-07-27T08:31:02
+================================================================================
+[2023-07-27T08:31:45.875+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.54s           2023-07-27T08:31:21
+/opt/airflow/dags/etl_dag.py                                   1           0  1.63s           2023-07-27T08:31:33
+================================================================================
+[2023-07-27T08:32:16.053+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:31:52
+/opt/airflow/dags/etl_dag.py                                   1           0  1.88s           2023-07-27T08:32:05
+================================================================================
+[2023-07-27T08:32:46.279+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:32:23
+/opt/airflow/dags/etl_dag.py                                   1           0  1.62s           2023-07-27T08:32:37
+================================================================================
+[2023-07-27T08:33:16.462+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.53s           2023-07-27T08:32:53
+/opt/airflow/dags/etl_dag.py                                   1           0  1.77s           2023-07-27T08:33:09
+================================================================================
+[2023-07-27T08:33:46.803+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.53s           2023-07-27T08:33:25
+/opt/airflow/dags/etl_dag.py                                   1           0  1.85s           2023-07-27T08:33:41
+================================================================================
+[2023-07-27T08:34:16.905+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.54s           2023-07-27T08:33:55
+/opt/airflow/dags/etl_dag.py                                   1           0  2.25s           2023-07-27T08:34:14
+================================================================================
+[2023-07-27T08:34:47.117+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.66s           2023-07-27T08:34:26
+/opt/airflow/dags/etl_dag.py                                   1           0  1.80s           2023-07-27T08:34:46
+================================================================================
+[2023-07-27T08:35:17.314+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:34:57
+/opt/airflow/dags/etl_dag.py            719  1.01s             1           0  1.80s           2023-07-27T08:34:46
+================================================================================
+[2023-07-27T08:35:47.648+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:35:28
+/opt/airflow/dags/etl_dag.py                                   1           0  1.82s           2023-07-27T08:35:18
+================================================================================
+[2023-07-27T08:36:11.948+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T08:36:11.973+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T08:36:18.017+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.56s           2023-07-27T08:35:59
+/opt/airflow/dags/etl_dag.py                                   1           0  1.66s           2023-07-27T08:35:49
+================================================================================
+[2023-07-27T08:36:48.356+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.51s           2023-07-27T08:36:30
+/opt/airflow/dags/etl_dag.py                                   1           0  2.15s           2023-07-27T08:36:22
+================================================================================
+[2023-07-27T08:37:18.411+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.64s           2023-07-27T08:37:01
+/opt/airflow/dags/etl_dag.py                                   1           0  2.24s           2023-07-27T08:36:54
+================================================================================
+[2023-07-27T08:37:49.033+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.66s           2023-07-27T08:37:32
+/opt/airflow/dags/etl_dag.py                                   1           0  3.74s           2023-07-27T08:37:28
+================================================================================
+[2023-07-27T08:38:19.100+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:38:03
+/opt/airflow/dags/etl_dag.py                                   1           0  1.81s           2023-07-27T08:38:00
+================================================================================
+[2023-07-27T08:38:49.281+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:38:33
+/opt/airflow/dags/etl_dag.py                                   1           0  1.67s           2023-07-27T08:38:32
+================================================================================
+[2023-07-27T08:39:19.608+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.59s           2023-07-27T08:39:04
+/opt/airflow/dags/etl_dag.py                                   1           0  2.02s           2023-07-27T08:39:04
+================================================================================
+[2023-07-27T08:39:49.998+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.54s           2023-07-27T08:39:35
+/opt/airflow/dags/etl_dag.py                                   1           0  1.80s           2023-07-27T08:39:36
+================================================================================
+[2023-07-27T08:40:20.022+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.54s           2023-07-27T08:40:05
+/opt/airflow/dags/etl_dag.py                                   1           0  1.97s           2023-07-27T08:40:08
+================================================================================
+[2023-07-27T08:40:50.436+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:40:36
+/opt/airflow/dags/etl_dag.py                                   1           0  1.74s           2023-07-27T08:40:41
+================================================================================
+[2023-07-27T08:41:12.400+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T08:41:12.416+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T08:41:20.911+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.53s           2023-07-27T08:41:07
+/opt/airflow/dags/etl_dag.py                                   1           0  1.68s           2023-07-27T08:41:13
+================================================================================
+[2023-07-27T08:41:50.929+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:41:38
+/opt/airflow/dags/etl_dag.py                                   1           0  1.63s           2023-07-27T08:41:44
+================================================================================
+[2023-07-27T08:42:21.337+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.55s           2023-07-27T08:42:09
+/opt/airflow/dags/etl_dag.py                                   1           0  1.78s           2023-07-27T08:42:16
+================================================================================
+[2023-07-27T08:42:51.522+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:42:39
+/opt/airflow/dags/etl_dag.py                                   1           0  1.78s           2023-07-27T08:42:48
+================================================================================
+[2023-07-27T08:43:21.639+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.58s           2023-07-27T08:43:11
+/opt/airflow/dags/etl_dag.py                                   1           0  1.66s           2023-07-27T08:43:20
+================================================================================
+[2023-07-27T08:43:51.833+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.52s           2023-07-27T08:43:41
+/opt/airflow/dags/etl_dag.py            980  1.01s             1           0  1.66s           2023-07-27T08:43:20
+================================================================================
+[2023-07-27T08:44:22.186+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.53s           2023-07-27T08:44:12
+/opt/airflow/dags/etl_dag.py                                   1           0  1.76s           2023-07-27T08:43:52
+================================================================================
+[2023-07-27T08:44:52.540+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.53s           2023-07-27T08:44:43
+/opt/airflow/dags/etl_dag.py                                   1           0  1.65s           2023-07-27T08:44:24
+================================================================================
+[2023-07-27T08:45:23.049+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.96s           2023-07-27T08:45:15
+/opt/airflow/dags/etl_dag.py                                   1           0  1.69s           2023-07-27T08:44:56
+================================================================================
+[2023-07-27T08:45:53.505+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.75s           2023-07-27T08:45:45
+/opt/airflow/dags/etl_dag.py                                   1           0  1.88s           2023-07-27T08:45:28
+================================================================================
+[2023-07-27T08:46:12.428+0000] {manager.py:758} INFO - Searching for files in /opt/airflow/dags
+[2023-07-27T08:46:12.455+0000] {manager.py:761} INFO - There are 2 files in /opt/airflow/dags
+[2023-07-27T08:46:23.542+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.74s           2023-07-27T08:46:16
+/opt/airflow/dags/etl_dag.py                                   1           0  1.82s           2023-07-27T08:46:00
+================================================================================
+[2023-07-27T08:46:53.863+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/settings/params.py                           0           0  0.77s           2023-07-27T08:46:47
+/opt/airflow/dags/etl_dag.py                                   1           0  2.41s           2023-07-27T08:46:32
+================================================================================
+[2023-07-27T08:46:59.252+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15

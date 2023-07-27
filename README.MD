@@ -15,3 +15,5 @@
 #### Step 3: Run ```docker-compose up -d```
 
 #### Step 5: Go to ```http://localhost:8080``` and login with default user: airflow and password: airflow as specified in your .env file 
+
+#### Note: you can view the version deployed on AWS at ```http://ec2-34-248-214-83.eu-west-1.compute.amazonaws.com:8080/```, default identifiers are airflow/airflow
