@@ -1,0 +1,29 @@
+[2023-07-26T23:30:40.517+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: EPT_DATA_ENG_ETL_V0.1.0.transform_wb_data manual__2023-07-26T23:30:12.037655+00:00 [queued]>
+[2023-07-26T23:30:40.530+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: EPT_DATA_ENG_ETL_V0.1.0.transform_wb_data manual__2023-07-26T23:30:12.037655+00:00 [queued]>
+[2023-07-26T23:30:40.531+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-07-26T23:30:40.551+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): transform_wb_data> on 2023-07-26 23:30:12.037655+00:00
+[2023-07-26T23:30:40.558+0000] {standard_task_runner.py:57} INFO - Started process 267 to run task
+[2023-07-26T23:30:40.563+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'EPT_DATA_ENG_ETL_V0.1.0', 'transform_wb_data', 'manual__2023-07-26T23:30:12.037655+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/etl_dag.py', '--cfg-path', '/tmp/tmpjs47ia57']
+[2023-07-26T23:30:40.567+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask transform_wb_data
+[2023-07-26T23:30:40.634+0000] {task_command.py:410} INFO - Running <TaskInstance: EPT_DATA_ENG_ETL_V0.1.0.transform_wb_data manual__2023-07-26T23:30:12.037655+00:00 [running]> on host 19c02828aadb
+[2023-07-26T23:30:40.760+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Airflow' AIRFLOW_CTX_DAG_ID='EPT_DATA_ENG_ETL_V0.1.0' AIRFLOW_CTX_TASK_ID='transform_wb_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-26T23:30:12.037655+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-26T23:30:12.037655+00:00'
+[2023-07-26T23:30:40.884+0000] {python.py:183} INFO - Done. Returned value was: economy annee  ...   population exposed to levels exceeding WHO guideline value 
+0        1960  ...                                              100.0           
+1        1961  ...                                              100.0           
+2        1962  ...                                              100.0           
+3        1963  ...                                              100.0           
+4        1964  ...                                              100.0           
+..        ...  ...                                                ...           
+58       2018  ...                                              100.0           
+59       2019  ...                                              100.0           
+60       2020  ...                                              100.0           
+61       2021  ...                                              100.0           
+62       2022  ...                                              100.0           
+
+[63 rows x 6 columns]
+[2023-07-26T23:30:40.933+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=EPT_DATA_ENG_ETL_V0.1.0, task_id=transform_wb_data, execution_date=20230726T233012, start_date=20230726T233040, end_date=20230726T233040
+[2023-07-26T23:30:40.952+0000] {logging_mixin.py:150} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/email.py:153 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2023-07-26T23:30:40.954+0000] {email.py:269} INFO - Email alerting: attempt 1
+[2023-07-26T23:30:42.100+0000] {email.py:281} INFO - Sent an alert email to ['diopbamba86@gmail.com']
+[2023-07-26T23:30:43.529+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-26T23:30:43.560+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

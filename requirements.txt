@@ -1,0 +1,5 @@
+apache-airflow==2.6.3
+boto3
+wbgapi
+datetime
+loguru
