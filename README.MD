@@ -1,6 +1,6 @@
 #### Note: Airflow version 2.6.3 (we use Official Docker Images)
 
-### Apache Airflow ETL project with Postgres as a Database
+### Apache Airflow ETL project with Postgres as a Database and AWS S3 Bucket
 
 ### How to deploy:
 
