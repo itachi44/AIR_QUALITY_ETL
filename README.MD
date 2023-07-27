@@ -21,3 +21,8 @@
 ### Architecture
 
 ![Architecture Image](assets/ETL_Architecture.png)
+
+
+### QuickSight
+
+[Dashboard PDF](assets/dashboard.pdf)
