@@ -8,7 +8,7 @@
 
 #### Step 1: Clone this Repo and open terminal.
 
-#### Step 2: Create a ```.env``` file and set your environnement variables based on ```.env.example```
+#### Step 2: Create a ```.env``` file and set your environnement variables based on ```env.example```
 
 #### Step 3 : Change ```docker-compose.yml``` file and ```dags/settings/params.py``` according to your preference. Or you can just keep them as it is for local development.
 
