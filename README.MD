@@ -25,4 +25,4 @@
 
 ### QuickSight
 
-[Dashboard Image](assets/dashboard.png)
+![Dashboard Image](assets/dashboard.png)
