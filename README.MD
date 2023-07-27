@@ -22,6 +22,9 @@
 
 ![Architecture Image](assets/ETL_Architecture.png)
 
+### Dags run
+
+![Airflow Image](assets/dags_run.png)
 
 ### QuickSight
 
